@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(86, 86, 251);
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 10%;
+    height: 80px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.fizz{
+    background-color: rgb(33, 171, 120);
+}
+
+.buzz{
+    background-color: rgb(223, 169, 88);
+}
+
+.fizzbuzz{
+    background-color: rgb(218, 79, 79);
+}
